@@ -1,0 +1,14 @@
+.header_home {
+    background-color: var(--amarillo);
+}
+
+.footer_home {
+    background-color: var(--gris);
+}
+
+.main_home {
+    background-color: var(--gris_claro);
+    text-align: center;
+}
+
+

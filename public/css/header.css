@@ -1,0 +1,66 @@
+.header_home {
+    height: 491px;
+}
+.logo {
+    width: 40%;
+    margin: 5% 0px 0px 5%;
+}
+
+.search {
+    margin: 15px;
+}
+
+.search div {
+    margin-top: 3px;
+}
+
+.search div i{
+    background-color: var(--gris_claro);
+    border: 1px solid grey;
+    width: 20px 20px 20px 20px;
+}
+
+.nav {
+    margin-bottom: 20px;
+}
+
+.header_home nav ul {
+    text-align: left;
+    padding: 0px;
+}
+
+.buy {
+    text-align: center;
+}
+
+.burger-menu {
+    color: var(--gris_claro);
+    text-align: center;
+    background-color: var(--celeste);
+    margin: 23px 195px;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.banner{
+    width: 100vw;
+}
+
+.main_home section h2 {
+    font-size: var(--titulares);
+}
+
+.main_home section .precios {
+    font-size: var(--precios);
+}
+
+.main_home section .descuentos {
+    font-size: var(--descuentos);
+}
+
+.main_home section .descripciones {
+    font-size: var(--descripciones);
+}
+.main_home section img {
+    width: 350px;
+}

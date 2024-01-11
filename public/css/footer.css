@@ -1,0 +1,32 @@
+.footer_home {
+    text-align: center;
+    margin: 25px 0px 25px 0px;   
+    background-color: var(--gris_claro);
+}
+
+.footer_home section {
+    margin-top: 60px;
+    padding: 0px 35px;
+}
+
+.footer_home section h3{
+    font-size: var(--titulares);
+}
+
+.footer_home section i{
+    display:block;
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: var(--celeste);
+}
+
+.footer_home section p {
+    padding: 0px 10px;
+    font-size: var(--cuerpo_texto);
+}
+
+.copyright {
+    margin-left: 20px;
+    margin-top: 50px;
+    text-align: left;
+}
