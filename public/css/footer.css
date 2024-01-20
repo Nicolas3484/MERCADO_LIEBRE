@@ -1,32 +1,32 @@
 .footer_home {
-    text-align: center;
-    margin: 25px 0px 25px 0px;   
-    background-color: var(--gris_claro);
+    background-color: var(--gris);
 }
 
 .footer_home section {
-    margin-top: 60px;
-    padding: 0px 35px;
+    margin: 60px 20px;
+    text-align: center;
 }
 
-.footer_home section h3{
-    font-size: var(--titulares);
-}
-
-.footer_home section i{
-    display:block;
+.footer_home section i {
     font-size: 2em;
     margin-bottom: 10px;
     color: var(--celeste);
+    display: flex;
+    justify-content: center;
+}
+
+.footer_home section h3 {
+    font-size: var(--titulares);
 }
 
 .footer_home section p {
-    padding: 0px 10px;
+    padding: 0px 70px;
     font-size: var(--cuerpo_texto);
+    color: var(--gris_oscuro);
 }
 
-.copyright {
-    margin-left: 20px;
-    margin-top: 50px;
+.footer_home .copyright {
+    margin: 10px 10px 20px 20px;
     text-align: left;
+    color: var(--gris_oscuro);
 }

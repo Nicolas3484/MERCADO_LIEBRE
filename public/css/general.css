@@ -20,5 +20,6 @@
 
 * {
     margin: 0px;
-    font-family: var(--roboto)
+    font-family: var(--roboto);
+    box-sizing: border-box;
 }

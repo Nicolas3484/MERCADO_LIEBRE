@@ -1,66 +1,72 @@
 .header_home {
-    height: 491px;
+    background-color: var(--amarillo);
 }
-.logo {
+
+.header_home figure .logo {
     width: 40%;
     margin: 5% 0px 0px 5%;
 }
 
-.search {
+.header_home .search {
     margin: 15px;
 }
 
-.search div {
+.header_home .search .logo_busqueda {
     margin-top: 3px;
 }
 
-.search div i{
+.header_home .search .logo_busqueda i {
     background-color: var(--gris_claro);
     border: 1px solid grey;
     width: 20px 20px 20px 20px;
 }
 
-.nav {
-    margin-bottom: 20px;
-}
-
-.header_home nav ul {
-    text-align: left;
-    padding: 0px;
-}
-
-.buy {
+.header_home p {
     text-align: center;
 }
 
-.burger-menu {
+.header_home p i {}
+
+.header_home .nav {}
+
+.header_home .nav ul {
+    text-align: left;
+    padding: 0px;
+    color: black;
+}
+
+.header_home .nav a {
+    color: black;
+    text-decoration: none;
+}
+
+
+.header_home .nav ul.nav01 {
+    
+margin: 20px 0px;
+}
+
+.header_home .burger-menu {
     color: var(--gris_claro);
     text-align: center;
     background-color: var(--celeste);
     margin: 23px 195px;
-    padding: 10px;
+    padding: 8px 10px;
     border-radius: 4px;
 }
 
-.banner{
+.header_home .burger-menu i {
+    
+}
+
+.header_home .burger-menu i {
+    /* font-size: 17px; */
+}
+
+.header_home .banner {
     width: 100vw;
+    display: flex;
 }
 
-.main_home section h2 {
-    font-size: var(--titulares);
-}
 
-.main_home section .precios {
-    font-size: var(--precios);
-}
 
-.main_home section .descuentos {
-    font-size: var(--descuentos);
-}
-
-.main_home section .descripciones {
-    font-size: var(--descripciones);
-}
-.main_home section img {
-    width: 350px;
-}
