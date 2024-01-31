@@ -1,5 +1,7 @@
 /* FOOTER MOBILE */
 
+@media (min-width: 0px) {
+    
 .footer_home {
     background-color: var(--gris);
 }
@@ -32,9 +34,50 @@
     text-align: left;
     color: var(--gris_oscuro);
 }
+}
 
 /* FOOTER TABLET */
+
+@media (min-width: 361px) {
+    .footer_home {
+    }
+    
+    .footer_home section {
+    }
+    
+    .footer_home section i {
+    }
+    
+    .footer_home section h3 {
+    }
+    
+    .footer_home section p {
+    }
+    
+    .footer_home .copyright {
+}
+}
 
 
 
 /* FOOTER DESKTOP */
+
+@media (min-width: 769px) {
+    .footer_home {
+    }
+    
+    .footer_home section {
+    }
+    
+    .footer_home section i {
+    }
+    
+    .footer_home section h3 {
+    }
+    
+    .footer_home section p {
+    }
+    
+    .footer_home .copyright {
+}
+}
