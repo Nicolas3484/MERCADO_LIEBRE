@@ -39,7 +39,7 @@
         align-items: center;
     }
     
-    .header_home .header_elements .search .input {height: 40px;width: 80%;border: none;border-radius: 5px;position: relative;}
+    .header_home .header_elements .search .input {height: 30px;width: 80%;border: none;border-radius: 5px;position: relative;}
     
     .header_home .header_elements .search .input:focus {
         outline: none;
@@ -92,6 +92,7 @@
     .header_home .banner {
         width: 100vw;
         display: flex;
+        border-bottom: 1px solid var(--gris_oscuro);
     }
 }
 
@@ -176,6 +177,7 @@ align-items: center;
     display: flex;
     justify-content: right;
     gap: 20px;
+    margin: 0;
 }
 
 .header_home .nav ul li {
@@ -202,6 +204,7 @@ align-items: center;
 .header_home .banner {
     width: 100vw;
     display: flex;
+    border-bottom: 1px solid var(--gris_oscuro);
 }
 }
 

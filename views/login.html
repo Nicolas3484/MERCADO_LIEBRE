@@ -21,26 +21,28 @@
 </head>
 <body>
     <header class="header_home">
-        <figure>
-            <img class="logo" src="/images/logo-mercado-liebre.svg" alt="Logo">
-        </figure>
-        <form class="search">
-            <input type="text" class="input" placeholder="Buscar productos , marcas">
-            <div class="logo_busqueda"><i class="fa-solid fa-magnifying-glass"></i>
+        <div class="header_elements">
+            <figure>
+                <img class="logo" src="/images/logo-mercado-liebre.svg" alt="Logo">
+            </figure>
+            <div class="search">
+                <input type="text" class="input" placeholder="Buscar productos , marcas">
+                <i class="fa-solid fa-magnifying-glass icon"></i>
             </div>
-        </form>
-        <p class="buy"><i class="fa-solid fa-hand-holding-dollar"></i>Comprá en cuotas y sin tarjeta de crédito</p>
+            <p class="buy"><i class="fa-solid fa-hand-holding-dollar"></i>Comprá en cuotas y sin tarjeta de crédito</p>
+        </div>
+        
         <nav class="nav">
         <ul class="nav01">
-            <li><a href="">Ofertas</a></li>
-            <li><a href="">Tiendas Oficiales</a></li>
-            <li><a href="">Vender</a></li>
-            <li><a href="">Ayuda</a></li>
+            <li><a href="#">Ofertas</a></li>
+            <li><a href="#">Tiendas Oficiales</a></li>
+            <li><a href="#">Vender</a></li>
+            <li><a href="#">Ayuda</a></li>
         </ul>
         <ul>
             <li><a href="/registro">Creá tu cuenta <i class="fa-regular fa-id-card"></i></a></li>
-            <li><a href="/login">Ingresá <i class="fa-solid fa-right-from-bracket"></i></a></li>
-            <li><a href="">Mis compras <i class="fa-solid fa-basket-shopping"></i></a></li>
+            <li><a href="/ingresar">Ingresá <i class="fa-solid fa-right-from-bracket"></i></a></li>
+            <li><a href="#">Mis compras <i class="fa-solid fa-basket-shopping"></i></a></li>
         </ul>
         </nav>
         <div class="burger-menu">
@@ -48,8 +50,23 @@
         </div>
         <img class="banner" src="/images/img-home-banner.jpg" alt="Banner">
     </header>
-    <main>
-
+    <main class="main_login">
+        <form action="" method="post">
+            <h4 class="subt">Ingresa tu usuario y contraseña</h4>
+            <div class="info">
+            <div>
+                <label for="nombreUsuario"></label>
+                <input type="text" name="nombreUsuario" value="" id="usuario" placeholder="  Nombre de Usuario">
+            </div>
+            <div>
+                <label for="contrasenia"></label>
+                <input type="password" name="contrasenia" id="contrasenia" value="" placeholder="  Contraseña">
+            </div>
+            <div class="buttons">
+                <a href="/home" class="btn1">Enviar</a></button>
+            </div>
+            </div>
+        </form>
     </main>
     <footer class="footer_home">
         <section>

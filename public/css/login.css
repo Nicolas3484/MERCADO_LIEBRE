@@ -1,0 +1,219 @@
+@media (min-width: 0px) {
+    .main_login {
+    background-color: var(--gris_claro);
+    text-align: center;
+    width: 100vw;
+}  
+    
+    .main_login form {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main_login form .intereses{
+    
+display: flex;
+    
+flex-wrap: wrap;
+    
+text-align: left;
+    
+gap: 30px;
+}
+
+.main_login form .intereses div {
+    
+width: 30%;
+}
+
+    .main_login form .info {
+       
+display: flex;
+       
+flex-wrap: wrap;
+       
+gap: 30px;
+       
+width: 100%;
+    }
+ 
+    .main_login form .info div {
+    display: flex;
+    width: 100%;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+} 
+
+    .main_login form .info div input {
+    
+width: 70%;
+    
+height: 30px;
+    
+border: none;
+    
+border-radius: 5px;
+    
+outline: none;
+}
+    .main_login form .subt {
+    margin: 20px 0px;
+    width: 100%;
+    text-align: left;
+    padding-top: 10px;
+    border-top: 1px solid var(--gris_oscuro);
+}
+
+.main_login form .info .file {
+    flex-wrap: wrap;
+}
+
+.main_login form .info .file #foto2 {
+    
+font-size: 71%;
+}
+
+.main_login form .info .file .buttons {
+
+justify-content: right;
+}
+
+.main_login form .info .file .buttons {padding: 5px;display: flex;margin: 15px 0;}
+
+#perfil {
+
+width: 16px;
+
+margin: 0px 15px;
+}
+
+.btn1 {
+    padding: 5px;
+    background-color: var(--celeste);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    width: 30%;
+    margin-bottom: 30px;
+}
+
+.btn2 {
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--bs-danger);
+    color: white;
+}
+
+}
+
+@media (min-width: 361px) {
+    .main_login {
+    }  
+        
+        .main_login form {
+    }
+    
+    .main_login form .intereses{
+    }
+    
+    .main_login form .intereses div {
+    }
+    
+        .main_login form .info {
+        }
+     
+        .main_login form .info div {
+    } 
+    
+        .main_login form .info div label {}
+    
+        .main_login form .info div input {
+    }
+        .main_login form .subt {
+    }
+    
+    .main_login form .info .radio {
+        
+    }
+    
+    .main_login form .info .file {
+    }
+    
+    .main_login form .info .file #foto {
+    }
+    
+    .main_login form .info .file #foto2 {
+    font-size: 100%;
+    }
+    
+    .main_login form .info .file .buttons {
+    }
+    
+    .main_login form .info .file .buttons {}
+    #perfil {
+    }
+    
+    .btn1 {
+    }
+    
+    .btn2 {
+    }
+}
+
+@media (min-width: 769px) {
+    .main_login {
+    }  
+        
+        .main_login form {
+    }
+    
+    .main_login form .intereses{
+    }
+    
+    .main_login form .intereses div {
+    }
+    
+        .main_login form .info {
+        }
+     
+        .main_login form .info div {
+    } 
+    
+        .main_login form .info div label {}
+    
+        .main_login form .info div input {
+    }
+        .main_login form .subt {
+    }
+    
+    .main_login form .info .radio {
+        
+    }
+    
+    .main_login form .info .file {
+    }
+    
+    .main_login form .info .file #foto {
+    }
+    
+    .main_login form .info .file #foto2 {
+    }
+    
+    .main_login form .info .file .buttons {
+    }
+    
+    .main_login form .info .file .buttons {}
+    #perfil {
+    }
+    
+    .btn1 {
+    }
+    
+    .btn2 {
+    }
+}
