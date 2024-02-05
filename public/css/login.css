@@ -97,8 +97,7 @@ margin: 0px 15px;
     border: none;
     border-radius: 5px;
     text-decoration: none;
-    width: 30%;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .btn2 {
@@ -159,9 +158,11 @@ margin: 0px 15px;
     }
     
     .btn1 {
+    width: 75px;
     }
     
     .btn2 {
+    width: 75px;
     }
 }
 

@@ -76,12 +76,8 @@ outline: none;
 font-size: 71%;
 }
 
-.main_register form .info .file .buttons {
 
-justify-content: right;
-}
-
-.main_register form .info .file .buttons {padding: 5px;display: flex;margin: 15px 0;}
+.main_register form .info .file .buttons {padding: 5px;display: flex;margin: 15px 0;justify-content: center;}
 
 #perfil {
 
@@ -150,9 +146,10 @@ margin: 0px 15px;
     }
     
     .main_register form .info .file .buttons {
+    justify-content: right;
+    gap: 20px;
     }
     
-    .main_register form .info .file .buttons {}
     #perfil {
     }
     
