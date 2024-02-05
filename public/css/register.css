@@ -13,19 +13,16 @@
 }
 
 .main_register form .intereses{
-    
-display: flex;
-    
-flex-wrap: wrap;
-    
-text-align: left;
-    
-gap: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    gap: 5px;
+    flex-direction: column;
 }
 
 .main_register form .intereses div {
-    
-width: 30%;
+    width: 30%;
+    display: flex;
 }
 
     .main_register form .info {
@@ -113,6 +110,9 @@ margin: 0px 15px;
     }
     
     .main_register form .intereses{
+    flex-direction: row;
+    gap: 30px;
+    width: 100%;
     }
     
     .main_register form .intereses div {
@@ -168,6 +168,7 @@ margin: 0px 15px;
     }
     
     .main_register form .intereses{
+    width: 100%;
     }
     
     .main_register form .intereses div {
