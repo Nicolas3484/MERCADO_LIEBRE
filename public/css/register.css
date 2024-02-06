@@ -13,16 +13,23 @@
 }
 
 .main_register form .intereses{
-    display: flex;
-    flex-wrap: wrap;
-    text-align: left;
-    gap: 5px;
-    flex-direction: column;
+    
+display: flex;
+    
+flex-wrap: wrap;
+    
+text-align: left;
+    
+gap: 5px;
+    
+flex-direction: column;
 }
 
 .main_register form .intereses div {
-    width: 30%;
-    display: flex;
+    
+width: 30%;
+    
+display: flex;
 }
 
     .main_register form .info {
@@ -92,6 +99,8 @@ margin: 0px 15px;
     text-decoration: none;
 }
 
+
+
 .btn2 {
     padding: 5px;
     border: none;
@@ -100,6 +109,27 @@ margin: 0px 15px;
     color: white;
 }
 
+.btn2:hover:hover {
+    transform: scale(1.10);
+}
+
+.btn1 {
+    padding: 5px;
+    background-color: var(--celeste);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;;
+}
+
+.main_register .btn1:hover {
+    transform: scale(1.10);
+}
+
+.a {
+    text-decoration: none;
+    color: white !important;
+}
 }
 
 @media (min-width: 361px) {

@@ -90,21 +90,19 @@ width: 16px;
 margin: 0px 15px;
 }
 
-.btn1 {
+.main_login .btn1 {
     padding: 5px;
     background-color: var(--celeste);
-    color: white;
     border: none;
     border-radius: 5px;
     text-decoration: none;
+    font-size: 16px;
+    margin-bottom: 20px;
 }
 
-.btn2 {
-    padding: 5px;
-    border: none;
-    border-radius: 5px;
-    background-color: var(--bs-danger);
-    color: white;
+.main_login .btn1:hover {
+    background-color: var(--azul2);
+    transition: background-color 1.5s;
 }
 
 }
@@ -156,11 +154,11 @@ margin: 0px 15px;
     #perfil {
     }
     
-    .btn1 {
+    .main_login .btn1 {
     width: 75px;
     }
     
-    .btn2 {
+    .main_login .btn2 {
     width: 75px;
     }
 }
@@ -211,9 +209,9 @@ margin: 0px 15px;
     #perfil {
     }
     
-    .btn1 {
+    .main_login .btn1 {
     }
     
-    .btn2 {
+    .main_login .btn2 {
     }
 }

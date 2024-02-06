@@ -45,7 +45,13 @@
     position: absolute;
     right: 20px;
     top: -15px;
+    cursor: pointer; 
+    transition: transform 0.3s ease; 
 }
+
+.main_home .productos div i:hover {
+    transform: rotate(-90deg); 
+  }
 
 .main_home .productos div .precios {
     font-size: var(--precios);
@@ -61,9 +67,8 @@
 }
 
 .main_home .productos div .descripciones {
-    font-size: var(--descripciones);
+    opacity: 0;
     color: var(--gris_oscuro);
-    display: none;
 }
 
 .main_home .productos div .desc {
@@ -75,6 +80,7 @@
     flex-wrap: wrap;
     position: relative;
 }
+
 }
 
 /* HOME TABLET */
@@ -94,9 +100,16 @@
     }
     
     .main_home .productos .div-padre {
-        box-shadow: 0px 0px 10px rgb(100, 100,100);
         width: calc(50% - 35px);
+        transition: transform 0.3s ease; 
     }
+
+    .main_home .productos .div-padre:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 10px rgb(100, 100,100);
+    transition: box-shadow 1s;
+    }
+    
     
     .main_home .productos img {
 
@@ -112,7 +125,6 @@
     
     .main_home .productos div .descuentos {
         text-align: center;
-
     }
     
     
@@ -120,10 +132,12 @@
 
     }
     
-    .main_home .productos div .descripciones {
-    display: flex;
-    margin-top: 20px;
-    }
+
+.main_home .productos .div-padre:hover .descripciones {
+    opacity: 1;
+    visibility: visible;
+    transition: opacity 0.5s ease, visibility 0s linear 0s;
+}
 }
 
 /* HOME DESKTOP */

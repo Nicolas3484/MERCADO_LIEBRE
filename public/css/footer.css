@@ -19,12 +19,17 @@
     justify-content: center;
 }
 
+.footer_home section i:hover {
+    color: var(--azul2);
+    transition: color 1.5s;
+}
+
 .footer_home section h3 {
     font-size: var(--titulares);
 }
 
 .footer_home section p {
-    padding: 0px 70px;
+    padding: 0px 50px;
     font-size: var(--cuerpo_texto);
     color: var(--gris_oscuro);
 }
@@ -52,6 +57,7 @@
     }
     
     .footer_home section p {
+    padding: 0px 70px;
     }
     
     .footer_home .copyright {
@@ -64,20 +70,24 @@
 
 @media (min-width: 769px) {
     .footer_home {
+    display: flex;
+    flex-wrap: wrap;
     }
     
     .footer_home section {
+    width: 29.4%;
     }
     
     .footer_home section i {
     }
     
-    .footer_home section h3 {
+    .footer_home section h2 {
+    font-size: 22px;
     }
     
     .footer_home section p {
+    padding: 10px 0px;
     }
     
-    .footer_home .copyright {
-}
+    .footer_home .copyright {}
 }
